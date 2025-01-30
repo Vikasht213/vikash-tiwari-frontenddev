@@ -23,7 +23,7 @@ export default function Hero3D() {
       <div className="relative z-20 min-h-screen flex flex-col justify-center items-center p-8 md:p-16">
         <div className="max-w-xl mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white animate-slideDown">
-            Hi, I’m Neeraj Sharma
+            Hi, I’m Vikash Tiwari
           </h1>
           <p className="text-2xl md:text-3xl text-gray-300 mb-8 animate-slideUp">
             Frontend Developer Specializing in Modern Web Solutions
@@ -36,21 +36,21 @@ export default function Hero3D() {
           {/* Contact Links */}
           <div className="flex flex-wrap justify-center gap-6 text-gray-300 animate-slideUp">
             <a
-              href="mailto:nicksharma724@gmail.com"
+              href="mailto:tvikash964@gmail.com"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
             >
               <Mail className="w-5 h-5" />
               <span>Email</span>
             </a>
             <a
-              href="tel:7974753353"
+              href="tel:8839643893"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
             >
               <Phone className="w-5 h-5" />
               <span>Call</span>
             </a>
             <a
-              href="https://github.com/nick-etron"
+              href="https://github.com/Vikasht213"
               target="blank"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
             >
@@ -58,7 +58,7 @@ export default function Hero3D() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/neeraj-sharma-8591b81b4/"
+              href="https://www.linkedin.com/in/vikash-tiwari-16490514a"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
               target="blank"
             >

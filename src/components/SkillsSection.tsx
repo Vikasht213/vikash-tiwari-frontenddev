@@ -19,7 +19,7 @@ const skills = [
   {
     icon: Code2,
     title: "Frontend Development",
-    description: "Expert in React.js, Next.js, and modern JavaScript frameworks",
+    description: "Expert in React.js, Node.js, and modern JavaScript frameworks",
   },
   {
     icon: Layout,

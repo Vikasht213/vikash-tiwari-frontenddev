@@ -14,9 +14,9 @@ const technologies = [
   {
     category: "Frontend",
     icon: <Layout className="w-8 h-8 text-blue-400" />,
-    items: ["React.js", "Next.js", "TypeScript", "HTML5/CSS3"],
+    items: ["React.js", "Node.js", "TypeScript", "HTML5/CSS3"],
   },
-  {
+  { 
     category: "Styling",
     icon: <Sparkles className="w-8 h-8 text-purple-400" />,
     items: ["Tailwind CSS", "SCSS", "Styled Components"],
@@ -74,11 +74,7 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            I'm a detail-oriented frontend developer passionate about crafting
-            exceptional user experiences. With over 2 years of experience, I
-            specialize in building responsive, accessible, and high-performance
-            web applications using modern frameworks like React.js and Next.js,
-            and tools like Tailwind CSS and SCSS.
+            Experienced Senior Frontend Developer with nearly 4 years of expertise in delivering high-performance web solutions. Skilled in leading teams, optimizing complex systems, and creating user-centric interfaces for both open-source and proprietary platforms. Focused on driving innovation, scalability, and providing outstanding user experiences. Proficient in React and Node.js, with a strong emphasis on building efficient and scalable web applications.
           </motion.p>
         </div>
 

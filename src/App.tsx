@@ -58,7 +58,7 @@ function App() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors">
-                        Ibyteinfomatics
+                        ANS Commerce (Flipkart Group)
                       </h3>
                       <p className="text-gray-400 flex items-center gap-2">
                         <Code className="w-4 h-4" />
@@ -68,11 +68,13 @@ function App() {
                   </div>
                   <div className="flex items-center gap-2 text-gray-400 bg-gray-800/50 px-4 py-2 rounded-full">
                     <Calendar className="w-4 h-4" />
-                    <span>Mar 2024 - Present</span>
+                    <span>Sep 2023 - Present</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   {[
+                    "Lead the development with new themes for kartify, Flipshop and optimized previously built themes for faster load times.",
+                    "Optimize UI performance and responsiveness through techniques like code splitting, lazy loading, caching, and asset optimization.",
                     "Led development for multiple projects with Next.js, React.js, JavaScript",
                     "Implemented responsive design using HTML5/CSS3",
                     "Utilized Redux for scalable state management",
@@ -97,7 +99,7 @@ function App() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                        Ssoft Solutions
+                        ITT Digital
                       </h3>
                       <p className="text-gray-400 flex items-center gap-2">
                         <Code className="w-4 h-4" />
@@ -107,11 +109,13 @@ function App() {
                   </div>
                   <div className="flex items-center gap-2 text-gray-400 bg-gray-800/50 px-4 py-2 rounded-full">
                     <Calendar className="w-4 h-4" />
-                    <span>Dec 2022 - Feb 2024</span>
+                    <span>May 2021 - Sep 2023</span>
                   </div>
                 </div>
                 <ul className="space-y-3 text-gray-300">
                   {[
+                    "Working as a lead developer for an agile handling multiple projects.",
+                    "Optimizing UI performance by reducing loading times, minimizing network requests, and improving rendering efficiency is crucial for providing a smooth user experience.",
                     "Created single-page applications using React.js",
                     "Managed version control through Git",
                     "Integrated third-party APIs",
@@ -146,7 +150,7 @@ function App() {
           </div>
 
           <div className="max-w-5xl mx-auto space-y-12">
-            {/* Alysei Project */}
+            {/* columbia sportswear Project*/}
             <div className="group bg-gradient-to-br from-gray-800 via-gray-800/95 to-gray-800 p-1 rounded-2xl hover:from-blue-500/20 hover:via-purple-500/20 hover:to-blue-500/20 transition-all duration-500">
               <div className="bg-gray-800 p-8 rounded-2xl">
                 <div className="flex flex-col lg:flex-row gap-8">
@@ -164,19 +168,14 @@ function App() {
                   <div className="lg:w-1/2 space-y-6">
                     <div>
                       <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-blue-400 transition-colors">
-                        Alysei - B2B Platform
+                        Columbia Sportswear
                       </h3>
                       <p className="text-gray-400 text-sm">
-                        React • Node.js • MongoDB • Express
+                        React • Node.js • MongoDB
                       </p>
                     </div>
                     <p className="text-gray-300 leading-relaxed">
-                      A comprehensive B2B platform connecting Italian food
-                      producers with US importers. Features include user
-                      authentication, product showcasing, business networking,
-                      and real-time communication. The platform streamlines the
-                      import/export process and facilitates business
-                      relationships in the food industry.
+                    Columbia Sportswear is a global outdoor apparel and equipment company known for its innovative products, including outerwear, footwear, and accessories. Founded in 1938, the brand emphasizes durability, performance, and technology. Columbia caters to outdoor enthusiasts, offering gear for activities like hiking, skiing, and fishing, with a focus on comfort and protection.
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <span className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm">
@@ -191,7 +190,7 @@ function App() {
                     </div>
                     <div className="flex gap-6">
                       <a
-                        href="https://alysei.com/"
+                        href="https://columbiasportswear.co.in/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-gray-400 hover:text-blue-400 transition-colors group/link"
@@ -208,7 +207,7 @@ function App() {
               </div>
             </div>
 
-            {/* Zekosoft Project */}
+            {/* Secret Wish Project */}
             <div className="group bg-gradient-to-br from-gray-800 via-gray-800/95 to-gray-800 p-1 rounded-2xl hover:from-purple-500/20 hover:via-blue-500/20 hover:to-purple-500/20 transition-all duration-500">
               <div className="bg-gray-800 p-8 rounded-2xl">
                 <div className="flex flex-col lg:flex-row gap-8">
@@ -226,18 +225,14 @@ function App() {
                   <div className="lg:w-1/2 space-y-6">
                     <div>
                       <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-purple-400 transition-colors">
-                        Zekosoft - IT Solutions
+                      Secret Wish
                       </h3>
                       <p className="text-gray-400 text-sm">
-                        Next.js • Tailwind CSS • Framer Motion
+                        React • Tailwind CSS • Framer Motion
                       </p>
                     </div>
                     <p className="text-gray-300 leading-relaxed">
-                      A modern, responsive website for an IT solutions company
-                      showcasing their services, expertise, and portfolio.
-                      Features smooth animations, interactive UI elements, and
-                      optimized performance. The design focuses on user
-                      experience while maintaining professional aesthetics.
+                    Secret-Wish is an online store offering a wide range of products, including fragrances, beauty items, and personal care goods. It features a variety of brands and aims to provide customers with quality, affordable options for perfumes and cosmetics. The site focuses on enhancing personal grooming and style.
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <span className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm">
@@ -252,7 +247,7 @@ function App() {
                     </div>
                     <div className="flex gap-6">
                       <a
-                        href="https://zekosoft.netlify.app/"
+                        href="https://www.secretwish.in/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-gray-400 hover:text-purple-400 transition-colors group/link"
@@ -269,7 +264,7 @@ function App() {
               </div>
             </div>
 
-            {/* FastFood OS Project */}
+            {/* American Tourister Project */}
             <div className="group bg-gradient-to-br from-gray-800 via-gray-800/95 to-gray-800 p-1 rounded-2xl hover:from-green-500/20 hover:via-blue-500/20 hover:to-green-500/20 transition-all duration-500">
               <div className="bg-gray-800 p-8 rounded-2xl">
                 <div className="flex flex-col lg:flex-row gap-8">
@@ -287,17 +282,14 @@ function App() {
                   <div className="lg:w-1/2 space-y-6">
                     <div>
                       <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-green-400 transition-colors">
-                        FastFood OS
+                      American Tourister
                       </h3>
                       <p className="text-gray-400 text-sm">
-                        Next.js • React • Tailwind CSS
+                        Node.js • React • Tailwind CSS
                       </p>
                     </div>
                     <p className="text-gray-300 leading-relaxed">
-                      A pioneering web platform for the fast-food industry,
-                      utilizing Next.js, React.js, and modern web technologies.
-                      Implemented server-side rendering (SSR) and static
-                      generation for optimal performance and SEO.
+                    The website "americantourister.in" is the official online store for American Tourister, a global luggage brand. It offers a variety of durable and stylish travel bags, suitcases, backpacks, and accessories. The site showcases different collections, catering to travelers' needs, with a focus on quality, design, and convenience for every journey.
                     </p>
                     <div className="flex flex-wrap gap-3">
                       <span className="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-sm">
@@ -312,7 +304,7 @@ function App() {
                     </div>
                     <div className="flex gap-6">
                       <a
-                        href="https://stubbingtonkebab.fastfood.dev/"
+                        href="https://www.americantourister.in/"
                         className="inline-flex items-center gap-2 text-gray-400 hover:text-green-400 transition-colors group/link"
                       >
                         <ExternalLink className="w-5 h-5" />
@@ -341,11 +333,20 @@ function App() {
               </h2>
               <div className="bg-gray-900 p-8 rounded-xl shadow-lg transform group-hover:scale-[1.02] transition-all duration-300 border border-gray-800 group-hover:border-blue-500/50">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">
-                  Bachelor of Technology
+                Bachelor of Engineering
                 </h3>
                 <p className="text-gray-400 flex items-center gap-2">
                   <Building2 className="w-4 h-4" />
-                  RKDF University, Bhopal
+                  Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal
+                </p>
+              </div>
+              <div className="bg-gray-900 p-8 rounded-xl shadow-lg transform group-hover:scale-[1.02] transition-all duration-300 border border-gray-800 group-hover:border-blue-500/50">
+                <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">
+                Master of Technology
+                </h3>
+                <p className="text-gray-400 flex items-center gap-2">
+                  <Building2 className="w-4 h-4" />
+                  Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal
                 </p>
               </div>
             </div>
@@ -375,7 +376,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 border-t border-gray-800">
         <div className="container mx-auto px-6 text-center text-gray-400">
-          <p>© 2024 Neeraj Sharma. All rights reserved.</p>
+          <p>© 2024 Vikash Tiwari. All rights reserved.</p>
         </div>
       </footer>
     </div>
