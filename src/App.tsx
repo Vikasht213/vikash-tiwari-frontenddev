@@ -144,7 +144,7 @@ function App() {
         <div className="container mx-auto px-6 relative z-10">
           <div className="flex items-center justify-center gap-3 mb-12">
             <Code className="w-8 h-8 text-blue-400" />
-            <h2 className="text-4xl font-bold text-center">
+            <h2 className="text-4xl font-bold text-center" id="projects">
               Featured Projects
             </h2>
           </div>
@@ -333,7 +333,7 @@ function App() {
               </h2>
               <div className="bg-gray-900 p-8 rounded-xl shadow-lg transform group-hover:scale-[1.02] transition-all duration-300 border border-gray-800 group-hover:border-blue-500/50">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">
-                Bachelor of Engineering
+                Bachelor of Engineering (2013-2017)
                 </h3>
                 <p className="text-gray-400 flex items-center gap-2">
                   <Building2 className="w-4 h-4" />
@@ -342,7 +342,7 @@ function App() {
               </div>
               <div className="bg-gray-900 p-8 rounded-xl shadow-lg transform group-hover:scale-[1.02] transition-all duration-300 border border-gray-800 group-hover:border-blue-500/50">
                 <h3 className="text-2xl font-bold mb-3 group-hover:text-blue-400 transition-colors">
-                Master of Technology
+                Master of Technology (2018-2020)
                 </h3>
                 <p className="text-gray-400 flex items-center gap-2">
                   <Building2 className="w-4 h-4" />

@@ -81,7 +81,9 @@ body {
     transform: translateY(0);
   }
 }
-
+#projectss{
+  scroll-behavior: smooth;
+}
 .animate-slideDown {
   animation: slideDown 1s ease-out;
 }

@@ -72,9 +72,11 @@ export default function Hero3D() {
           </div>
 
           {/* CTA Button */}
+          <a href="#projects" className="projectss">
           <button className="mt-12 px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors animate-fadeIn">
             Explore My Projects
           </button>
+          </a>
         </div>
       </div>
     </div>
