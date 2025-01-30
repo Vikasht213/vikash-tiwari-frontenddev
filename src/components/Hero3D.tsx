@@ -67,7 +67,7 @@ export default function Hero3D() {
             </a>
             <div className="flex items-center gap-2 text-gray-300">
               <MapPin className="w-5 h-5" />
-              <span>Bhopal</span>
+              <span>Gurugram</span>
             </div>
           </div>
 
