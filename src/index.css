@@ -84,6 +84,10 @@ body {
 #projectss{
   scroll-behavior: smooth;
 }
+.h-64 {
+  height: 22rem;
+  border-radius: 10px;
+}
 .animate-slideDown {
   animation: slideDown 1s ease-out;
 }
