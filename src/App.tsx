@@ -100,7 +100,7 @@ function App() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-white group-hover:text-purple-400 transition-colors">
-                        ITT Digital
+                        ITT Digital sfsf
                       </h3>
                       <p className="text-gray-400 flex items-center gap-2">
                         <Code className="w-4 h-4" />
