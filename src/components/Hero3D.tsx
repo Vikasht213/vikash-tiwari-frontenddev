@@ -21,7 +21,7 @@ export default function Hero3D() {
 
       {/* Content Overlay */}
       <div className="relative z-20 min-h-screen flex flex-col justify-center items-center p-8 md:p-16">
-        <div className="max-w-xl mx-auto text-center">
+        <div className="max-w-[37rem] mx-auto text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white animate-slideDown">
             Hi, I’m Vikash Tiwari
           </h1>
