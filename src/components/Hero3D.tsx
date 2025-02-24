@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, MapPin, FileText } from "lucide-react";
 
 export default function Hero3D() {
   return (
@@ -74,7 +74,7 @@ export default function Hero3D() {
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
               target="blank"
             >
-              <Linkedin className="w-5 h-5" />
+              <FileText className="w-5 h-5"/>
               <span>Resume</span>
             </a>
           </div>
