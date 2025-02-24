@@ -69,6 +69,14 @@ export default function Hero3D() {
               <MapPin className="w-5 h-5" />
               <span>Gurugram</span>
             </div>
+            <a
+              href="https://drive.google.com/file/d/1anIkw5XEZ-Gm6NCCs2EYEccY2tIJqCZl/view"
+              className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
+              target="blank"
+            >
+              <Linkedin className="w-5 h-5" />
+              <span>Resume</span>
+            </a>
           </div>
 
           {/* CTA Button */}
