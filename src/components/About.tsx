@@ -12,7 +12,12 @@ const technologies = [
   {
     category: "Frontend",
     icon: <Layout className="w-8 h-8 text-blue-400" />,
-    items: ["React.js", "Redux", "JavaScript", "Node.js", "TypeScript", "HTML5/CSS3"],
+    items: ["React.js", "Redux", "JavaScript", "TypeScript", "HTML5/CSS3"],
+  },
+    {
+    category: "Backend",
+    icon: <Layout className="w-8 h-8 text-lime-400" />,
+    items: ["Node.js"],
   },
   {
     category: "Cloud / DevOps",
