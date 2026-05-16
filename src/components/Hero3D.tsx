@@ -26,7 +26,7 @@ export default function Hero3D() {
             Hi, I’m Vikash Tiwari
           </h1>
           <p className="text-2xl md:text-3xl text-gray-300 mb-8 animate-slideUp">
-            Frontend Developer Specializing in Modern Web Solutions
+            Senior Frontend Developer Specializing in Modern Web Solutions
           </p>
           <p className="text-gray-400 mb-8 animate-fadeIn">
             Delivering high-quality, scalable, and user-centric web applications
@@ -70,7 +70,7 @@ export default function Hero3D() {
               <span>Pune</span>
             </div>
             <a
-              href="https://drive.google.com/file/d/1FXr6IS12RSCcM0vN54D6OgNd8_gRlMwC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1n1KGkRsiEH3kWvPuoYBrnvtNG0u8ahOD/view?usp=sharing"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
               target="blank"
             >

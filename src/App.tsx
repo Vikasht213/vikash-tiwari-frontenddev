@@ -70,6 +70,7 @@ function App() {
                 <ul className="space-y-3 text-gray-300">
                   {[
                     "Developed modern, responsive UI components using React.js, TypeScript, and Material UI, ensuring consistency, accessibility, and improved user experience across ecommerce workflows.",
+                    "Developed and maintained key features for the Amazon One Stop Shop project, improving shopping workflows, user engagement, and overall application performance.",
                     "Built and optimized backend services with Node.js and integrated them with AWS services (Lambda, S3, Amplify) for secure, scalable, and serverless application architecture.",
                     "Implemented cloud-driven solutions leveraging AWS Amplify and S3 for seamless deployment, storage management, and performance optimization.",
                     "Collaborated with cross-functional teams to deliver high-quality features for the Amazon Ecommerce platform, improving scalability, customer experience, and system reliability.",
@@ -412,7 +413,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 bg-gray-900 border-t border-gray-800">
         <div className="container mx-auto px-6 text-center text-gray-400">
-          <p>© 2025 Vikash Tiwari. All rights reserved.</p>
+          <p>© 2026 Vikash Tiwari. All rights reserved.</p>
         </div>
       </footer>
     </div>

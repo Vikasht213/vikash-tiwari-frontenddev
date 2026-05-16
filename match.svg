@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <!-- Background gradient (Diwali purple -> saffron) -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="60%" stop-color="#6b21a8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Gold gradient for accent text -->
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff4cc"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Soft glow -->
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Sparkle star -->
+    <symbol id="sparkle" viewBox="0 0 20 20">
+      <path d="M10 0 L12 8 L20 10 L12 12 L10 20 L8 12 L0 10 L8 8 Z" fill="#fde68a"/>
+    </symbol>
+
+    <!-- Diya (lamp) -->
+    <symbol id="diya" viewBox="0 0 120 80">
+      <path d="M10,40 Q60,90 110,40 Q60,65 10,40 Z" fill="#8b5e3c"/>
+      <path d="M15,40 Q60,75 105,40 Q60,60 15,40 Z" fill="#a47148"/>
+      <path d="M60,10 C45,25 52,40 60,40 C68,40 75,25 60,10 Z" fill="#f59e0b"/>
+      <path d="M60,17 C52,27 56,35 60,35 C64,35 68,27 60,17 Z" fill="#fde68a"/>
+    </symbol>
+
+    <!-- Cricket bat and ball -->
+    <symbol id="cricket" viewBox="0 0 120 80">
+      <g transform="translate(20,20) rotate(-25)">
+        <rect x="0" y="0" width="14" height="40" rx="3" fill="#d6a65b" stroke="#b68b49"/>
+        <rect x="-2" y="40" width="18" height="22" rx="3" fill="#efcf95" stroke="#b68b49"/>
+      </g>
+      <circle cx="85" cy="45" r="12" fill="#dc2626" stroke="#b91c1c"/>
+      <path d="M75,42 q10,-6 20,0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.9"/>
+      <path d="M75,48 q10,-6 20,0" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.7"/>
+    </symbol>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="365" width="1080" height="610" fill="url(#bgGrad)"/>
+
+  <!-- Corner fireworks -->
+  <g opacity="0.35" filter="url(#softGlow)">
+    <use href="#sparkle" x="70" y="60" width="40" height="40"/>
+    <use href="#sparkle" x="140" y="110" width="24" height="24"/>
+    <use href="#sparkle" x="920" y="80" width="40" height="40"/>
+    <use href="#sparkle" x="860" y="130" width="24" height="24"/>
+  </g>
+
+  <!-- Top diyas -->
+  <use href="#diya" x="140" y="475" width="120" height="80"/>
+  <use href="#diya" x="820" y="475" width="120" height="80"/>
+
+  <!-- Content card -->
+  <rect x="90" y="370" width="900" height="600" rx="24" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.3" />
+
+  <!-- Title: आमंत्रण पत्र (15px) -->
+  <text x="540" y="412" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="15px" fill="#ffffff">
+    🎉✨ आमंत्रण पत्र ✨🎉
+  </text>
+
+  <!-- Decorative dashed line -->
+  <line x1="160" y1="448" x2="920" y2="448" stroke="#facc15" stroke-width="2" stroke-dasharray="6 10" opacity="0.9"/>
+
+  <!-- Intro lines -->
+  <text x="540" y="475" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#fff">
+    <tspan x="540" dy="0">हम सभी ग्रामवासी आप को हार्दिक आमंत्रित करते हैं</tspan>
+    <tspan x="540" dy="30">कुबरा में होने वाले क्रिकेट टूर्नामेंट में।</tspan>
+  </text>
+
+  <text x="540" y="545" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#fff">
+    <tspan x="540" dy="0">हर साल की भाँति इस वर्ष भी दीवाली के शुभ अवसर पर</tspan>
+    <tspan x="540" dy="30">भव्य क्रिकेट टूर्नामेंट का आयोजन किया जा रहा है।</tspan>
+  </text>
+
+  <!-- Cricket icons + label -->
+  <use href="#cricket" x="165" y="600" width="90" height="60" />
+  <use href="#cricket" x="825" y="600" width="90" height="60" />
+  <text x="540" y="615" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#fde68a">
+    🏏 टूर्नामेंट का नाम:
+  </text>
+
+  <!-- Tournament name (15px, gold gradient) -->
+  <text x="540" y="650" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-weight="800" font-size="15px" fill="url(#goldGrad)">
+    स्वर्गीय श्रीमती मुन्नी बाई मरावी स्मृति सम्मान (KPL – 18)
+  </text>
+
+  <!-- Dates -->
+  <text x="540" y="700" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#ffffff">
+    <tspan x="540" dy="0">📅 प्रारंभ तिथि: 17 अक्टूबर 2025</tspan>
+    <tspan x="540" dy="30">📅 समापन तिथि: 24 अक्टूबर 2025</tspan>
+  </text>
+
+  <!-- Location -->
+  <text x="540" y="760" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#ffffff">
+    📍 स्थान: कुबरा क्रिकेट ग्राउंड
+  </text>
+
+  <!-- Message -->
+  <text x="540" y="800" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-size="14px" fill="#ffffff">
+    <tspan x="540" dy="0">इस शुभ अवसर पर सविनय निवेदन है कि</tspan>
+    <tspan x="540" dy="30">आप अपना कीमती समय निकालकर हमें मार्गदर्शन प्रदान करें</tspan>
+    <tspan x="540" dy="30">और अपनी गरिमामयी उपस्थिति से इस टूर्नामेंट को</tspan>
+    <tspan x="540" dy="30">सफल बनाने में हमारा सहयोग करें।</tspan>
+  </text>
+
+  <!-- Bottom separator -->
+  <line x1="160" y1="910" x2="920" y2="910" stroke="#facc15" stroke-width="2" stroke-dasharray="6 10" opacity="0.9"/>
+
+  <!-- Closing line -->
+  <text x="540" y="950" text-anchor="middle" font-family="Noto Sans Devanagari, Mangal, 'Hind', Poppins, system-ui" font-weight="700" font-size="16px" fill="#fff">
+    🙏 आप सभी का हार्दिक स्वागत है 🙏
+  </text>
+
+  <!-- Bottom diyas and sparkles -->
+  <g opacity="0.25" filter="url(#softGlow)">
+    <use href="#sparkle" x="220" y="1420" width="28" height="28"/>
+    <use href="#sparkle" x="860" y="1450" width="28" height="28"/>
+    <use href="#sparkle" x="540" y="1510" width="22" height="22"/>
+  </g>
+  <use href="#diya" x="150" y="800" width="120" height="80"/>
+  <use href="#diya" x="820" y="800" width="120" height="80"/>
+</svg>
