@@ -82,7 +82,7 @@ export function About() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            Experienced Senior Frontend Developer with nearly 5 years of expertise in delivering high-performance web solutions. Skilled in leading teams, optimizing complex systems, and creating user-centric interfaces for both open-source and proprietary platforms. Focused on driving innovation, scalability, and providing outstanding user experiences. Proficient in React and Node.js, with a strong emphasis on building efficient and scalable web applications.
+            Experienced Senior Frontend Developer with 5 years of expertise in delivering high-performance web solutions. Skilled in leading teams, optimizing complex systems, and creating user-centric interfaces for both open-source and proprietary platforms. Focused on driving innovation, scalability, and providing outstanding user experiences. Proficient in React and Node.js, with a strong emphasis on building efficient and scalable web applications.
           </motion.p>
         </div>
 
