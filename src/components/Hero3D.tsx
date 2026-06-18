@@ -70,7 +70,7 @@ export default function Hero3D() {
               <span>Pune</span>
             </div>
             <a
-              href="https://drive.google.com/file/d/1n1KGkRsiEH3kWvPuoYBrnvtNG0u8ahOD/view?usp=sharing"
+              href="https://drive.google.com/file/d/1cFYeFg3uNWiptJOhE2g3s6HImiiyzK-v/view"
               className="flex items-center gap-2 hover:text-white transition-colors transform hover:scale-110 duration-200"
               target="blank"
             >
